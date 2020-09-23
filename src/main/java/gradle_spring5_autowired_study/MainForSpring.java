@@ -1,20 +1,21 @@
-package java.gradle_spring5_autowired_study;
+package gradle_spring5_autowired_study;
 
-import java.gradle_spring5_autowired_study.config.AppCtx;
-import java.gradle_spring5_autowired_study.spring.ChangePasswordService;
-import java.gradle_spring5_autowired_study.spring.DuplicateMemberException;
-import java.gradle_spring5_autowired_study.spring.MemberInfoPrinter;
-import java.gradle_spring5_autowired_study.spring.MemberListPrinter;
-import java.gradle_spring5_autowired_study.spring.MemberNotFoundException;
-import java.gradle_spring5_autowired_study.spring.MemberRegisterService;
-import java.gradle_spring5_autowired_study.spring.RegisterRequest;
-import java.gradle_spring5_autowired_study.spring.WrongIdPasswordException;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+import gradle_spring5_autowired_study.config.AppCtx;
+import gradle_spring5_autowired_study.spring.ChangePasswordService;
+import gradle_spring5_autowired_study.spring.DuplicateMemberException;
+import gradle_spring5_autowired_study.spring.MemberInfoPrinter;
+import gradle_spring5_autowired_study.spring.MemberListPrinter;
+import gradle_spring5_autowired_study.spring.MemberNotFoundException;
+import gradle_spring5_autowired_study.spring.MemberRegisterService;
+import gradle_spring5_autowired_study.spring.RegisterRequest;
+import gradle_spring5_autowired_study.spring.WrongIdPasswordException;
 
 public class MainForSpring {
     private static ApplicationContext ctx = null;

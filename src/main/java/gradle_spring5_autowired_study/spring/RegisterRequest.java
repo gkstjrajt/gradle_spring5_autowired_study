@@ -1,4 +1,4 @@
-package java.gradle_spring5_autowired_study.spring;
+package gradle_spring5_autowired_study.spring;
 
 public class RegisterRequest {
     private String email;

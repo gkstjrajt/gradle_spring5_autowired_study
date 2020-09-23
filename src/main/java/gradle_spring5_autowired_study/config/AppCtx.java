@@ -1,14 +1,14 @@
-package java.gradle_spring5_autowired_study.config;
-
-import java.gradle_spring5_autowired_study.spring.ChangePasswordService;
-import java.gradle_spring5_autowired_study.spring.MemberDao;
-import java.gradle_spring5_autowired_study.spring.MemberInfoPrinter;
-import java.gradle_spring5_autowired_study.spring.MemberListPrinter;
-import java.gradle_spring5_autowired_study.spring.MemberPrinter;
-import java.gradle_spring5_autowired_study.spring.MemberRegisterService;
+package gradle_spring5_autowired_study.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+
+import gradle_spring5_autowired_study.spring.ChangePasswordService;
+import gradle_spring5_autowired_study.spring.MemberDao;
+import gradle_spring5_autowired_study.spring.MemberInfoPrinter;
+import gradle_spring5_autowired_study.spring.MemberListPrinter;
+import gradle_spring5_autowired_study.spring.MemberPrinter;
+import gradle_spring5_autowired_study.spring.MemberRegisterService;
 
 @Configuration
 public class AppCtx {

@@ -1,4 +1,4 @@
-package java.gradle_spring5_autowired_study.spring;
+package gradle_spring5_autowired_study.spring;
 
 import org.springframework.beans.factory.annotation.Autowired;
 
